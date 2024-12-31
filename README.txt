@@ -100,10 +100,10 @@ To train the stacked frames DDQN agent, run the DDQN_stacking_load.py file
 upon training completion, a graph of episode vs total reward is plotted.
 
 To load and evaluate a pre-trained single frame DDQN agent, run the DDQN_load.py file
-- by default this loads the _ model and renders its performance for 10 episodes. Actions chosen at each step and rewards achieved are printed.
+- by default this loads the "ddqn_model430.h5" model and renders its performance for 10 episodes. Actions chosen at each step and rewards achieved are printed.
 
 To load and evaluate a pre-trained stacked frames DDQN agent, run the DDQN_stacking_load.py file
-- by default this loads the _ model and renders its performance for 10 episodes. Actions chosen at each step and rewards achieved are printed.
+- by default this loads the "ddqn_checkpoint_600.h5" model and renders its performance for 10 episodes. Actions chosen at each step and rewards achieved are printed.
 
 
 explanations & instructions for Modifications 
